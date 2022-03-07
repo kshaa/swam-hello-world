@@ -12,7 +12,11 @@ lazy val root = (project in file("."))
     libraryDependencies += "org.gnieh" %% "swam-core" % "0.5.0",
     libraryDependencies += "org.gnieh" %% "swam-runtime" % "0.5.0",
     libraryDependencies += "org.gnieh" %% "swam-text" % "0.5.0",
-    libraryDependencies += "org.typelevel" %% "cats-effect" % "2.5.4"
-)
+    libraryDependencies += "org.typelevel" %% "cats-effect" % "2.5.4",
+    libraryDependencies += "co.fs2" %% "fs2-core" % "2.0.1",
+    libraryDependencies += "co.fs2" %% "fs2-io" % "2.0.1"
+
+
+  )
 
 // See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
